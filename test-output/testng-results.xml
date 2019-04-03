@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="4" passed="4">
+  <reporter-output>
+  </reporter-output>
+  <suite name="LoginSuite" duration-ms="73628" started-at="2019-04-03T23:37:41Z" finished-at="2019-04-03T23:38:54Z">
+    <groups>
+    </groups>
+    <test name="LoginTestCases" duration-ms="73628" started-at="2019-04-03T23:37:41Z" finished-at="2019-04-03T23:38:54Z">
+      <class name="gmail.LoginTestCases">
+        <test-method status="PASS" signature="testInicialize()[pri:0, instance:gmail.LoginTestCases@146ba0ac]" name="testInicialize" is-config="true" duration-ms="4774" started-at="2019-04-03T23:37:41Z" finished-at="2019-04-03T23:37:46Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testInicialize -->
+        <test-method status="PASS" signature="testSetup()[pri:0, instance:gmail.LoginTestCases@146ba0ac]" name="testSetup" is-config="true" duration-ms="3888" started-at="2019-04-03T23:37:46Z" description="Navigate to gmail page" finished-at="2019-04-03T23:37:49Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSetup -->
+        <test-method status="PASS" signature="VerifyEmptyPasswordError()[pri:0, instance:gmail.LoginTestCases@146ba0ac]" name="VerifyEmptyPasswordError" duration-ms="3087" started-at="2019-04-03T23:37:49Z" description="This test case verify if system is showing an error when password is not eneter in the login flow" finished-at="2019-04-03T23:37:53Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifyEmptyPasswordError -->
+        <test-method status="PASS" signature="testCleanup()[pri:0, instance:gmail.LoginTestCases@146ba0ac]" name="testCleanup" is-config="true" duration-ms="2927" started-at="2019-04-03T23:37:53Z" finished-at="2019-04-03T23:37:55Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCleanup -->
+        <test-method status="PASS" signature="testInicialize()[pri:0, instance:gmail.LoginTestCases@146ba0ac]" name="testInicialize" is-config="true" duration-ms="3805" started-at="2019-04-03T23:37:55Z" finished-at="2019-04-03T23:37:59Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testInicialize -->
+        <test-method status="PASS" signature="testSetup()[pri:0, instance:gmail.LoginTestCases@146ba0ac]" name="testSetup" is-config="true" duration-ms="3715" started-at="2019-04-03T23:37:59Z" description="Navigate to gmail page" finished-at="2019-04-03T23:38:03Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSetup -->
+        <test-method status="PASS" signature="VerifyEmptyUserError()[pri:0, instance:gmail.LoginTestCases@146ba0ac]" name="VerifyEmptyUserError" duration-ms="365" started-at="2019-04-03T23:38:03Z" description="This test case verify if system is showing an error when user is not eneter in the login flow" finished-at="2019-04-03T23:38:03Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifyEmptyUserError -->
+        <test-method status="PASS" signature="testCleanup()[pri:0, instance:gmail.LoginTestCases@146ba0ac]" name="testCleanup" is-config="true" duration-ms="2827" started-at="2019-04-03T23:38:03Z" finished-at="2019-04-03T23:38:06Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCleanup -->
+        <test-method status="PASS" signature="testInicialize()[pri:0, instance:gmail.LoginTestCases@146ba0ac]" name="testInicialize" is-config="true" duration-ms="4119" started-at="2019-04-03T23:38:06Z" finished-at="2019-04-03T23:38:10Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testInicialize -->
+        <test-method status="PASS" signature="testSetup()[pri:0, instance:gmail.LoginTestCases@146ba0ac]" name="testSetup" is-config="true" duration-ms="4206" started-at="2019-04-03T23:38:10Z" description="Navigate to gmail page" finished-at="2019-04-03T23:38:14Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSetup -->
+        <test-method status="PASS" signature="VerifyWrongPasswordError()[pri:0, instance:gmail.LoginTestCases@146ba0ac]" name="VerifyWrongPasswordError" duration-ms="3339" started-at="2019-04-03T23:38:14Z" description="This test case verify if system is showing an error when password is wrong" finished-at="2019-04-03T23:38:18Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifyWrongPasswordError -->
+        <test-method status="PASS" signature="testCleanup()[pri:0, instance:gmail.LoginTestCases@146ba0ac]" name="testCleanup" is-config="true" duration-ms="2689" started-at="2019-04-03T23:38:18Z" finished-at="2019-04-03T23:38:21Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCleanup -->
+        <test-method status="PASS" signature="testInicialize()[pri:0, instance:gmail.LoginTestCases@146ba0ac]" name="testInicialize" is-config="true" duration-ms="3876" started-at="2019-04-03T23:38:21Z" finished-at="2019-04-03T23:38:24Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testInicialize -->
+        <test-method status="PASS" signature="testSetup()[pri:0, instance:gmail.LoginTestCases@146ba0ac]" name="testSetup" is-config="true" duration-ms="3649" started-at="2019-04-03T23:38:24Z" description="Navigate to gmail page" finished-at="2019-04-03T23:38:28Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSetup -->
+        <test-method status="PASS" signature="loginTest()[pri:0, instance:gmail.LoginTestCases@146ba0ac]" name="loginTest" duration-ms="23560" started-at="2019-04-03T23:38:28Z" description="This test case verify if user is be able to do a correct login" finished-at="2019-04-03T23:38:52Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginTest -->
+        <test-method status="PASS" signature="testCleanup()[pri:0, instance:gmail.LoginTestCases@146ba0ac]" name="testCleanup" is-config="true" duration-ms="2762" started-at="2019-04-03T23:38:52Z" finished-at="2019-04-03T23:38:54Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCleanup -->
+      </class> <!-- gmail.LoginTestCases -->
+    </test> <!-- LoginTestCases -->
+  </suite> <!-- LoginSuite -->
+</testng-results>

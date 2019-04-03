@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [LoginSuite]">
+  <parameter name="basePage" value="https://www.gmail.com"/>
+  <parameter name="pass" value="teamon"/>
+  <parameter name="user" value="germandosreis"/>
+  <test thread-count="5" name="LoginTestCases(failed)">
+    <classes>
+      <class name="TestCase.LoginTestCases">
+        <methods>
+          <include name="testInicialize"/>
+          <include name="VerifyEmptyPasswordError" invocation-numbers="0"/>
+          <include name="testCleanup"/>
+        </methods>
+      </class> <!-- TestCase.LoginTestCases -->
+    </classes>
+  </test> <!-- LoginTestCases(failed) -->
+</suite> <!-- Failed suite [LoginSuite] -->

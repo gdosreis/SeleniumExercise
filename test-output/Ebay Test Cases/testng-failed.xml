@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Ebay Test Cases]">
+  <parameter name="basePage" value="https://www.ebay.com"/>
+  <parameter name="searchValue" value="Electric Guitar"/>
+  <test thread-count="5" name="Ebay(failed)">
+    <classes>
+      <class name="ebay.EbayTestCases">
+        <methods>
+          <include name="testInicialize"/>
+          <include name="testCleanup"/>
+          <include name="searchTestCase"/>
+        </methods>
+      </class> <!-- ebay.EbayTestCases -->
+    </classes>
+  </test> <!-- Ebay(failed) -->
+</suite> <!-- Failed suite [Ebay Test Cases] -->

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Ebay Test Cases">
+  <parameter name="basePage" value="https://www.ebay.com" />
+  <parameter name="searchValue" value="Electric Guitar" />
+  <test thread-count="5" name="Ebay">
+  <classes>
+      <class name="ebay.EbayTestCases"/>
+    </classes>
+  </test> 
+</suite>
